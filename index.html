@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#617b6f">
+  <meta name="description" content="배유지의 포트폴리오. 영상의 흐름과 감정을 고민하고, 기획과 디자인으로 이야기를 만듭니다.">
+  <title>YUJI — Stories in Motion</title>
+  <link rel="canonical" href="https://yuji-stories-in-motion.dowajo9904.chatgpt.site/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="assets/hero.webp" as="image" fetchpriority="high">
+  <script src="projects.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#work">작품 바로 보기</a>
+  <div class="announcement"><span>A collection of moments, made into stories.</span><span>PORTFOLIO · 2026</span></div>
+  <header class="hero" id="top">
+    <img class="hero-image" src="assets/hero.webp" alt="따뜻한 햇살이 드는 가게 앞, 분홍색 옷을 입고 액자를 든 사람" width="1080" height="727" fetchpriority="high">
+    <div class="hero-shade" aria-hidden="true"></div>
+    <nav class="navigation" aria-label="메인 메뉴">
+      <div class="nav-links"><a href="#work">Work</a><a href="#about">About</a><a href="#archive">Archive</a></div>
+      <a class="wordmark" href="#top" aria-label="YUJI, 처음으로">yuji<span>’26</span></a>
+      <a class="nav-note" href="#about">Film & visual stories <span aria-hidden="true">↗</span></a>
+      <button class="menu-button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu" hidden><a href="#work">Work</a><a href="#about">About</a><a href="#archive">Archive</a></div>
+    <div class="hero-copy">
+      <p class="eyebrow">THE PORTFOLIO OF BAE YUJI</p>
+      <h1>Stories<br><em>in motion.</em></h1>
+      <p class="hero-subtitle">장면을 잇고, 마음에 남는 이야기를 만듭니다.</p>
+      <div class="hero-actions"><a class="pill" href="#work">View my work <span aria-hidden="true">↗</span></a><a class="pill" href="#about">About me</a></div>
+    </div>
+    <div class="hero-bottom"><span>VIDEO EDITING · PLANNING · DESIGN</span><a href="#work">Scroll to explore <span aria-hidden="true">↓</span></a></div>
+  </header>
+
+  <main>
+    <section class="work-section" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow section-kicker">A SELECTION OF MY WORK</p><h2 id="work-title">Selected works<span class="title-dot">.</span></h2></div><button class="text-button view-toggle" aria-pressed="false"><span>View all</span><span class="small-circle" aria-hidden="true">↗</span></button></div>
+      <div class="work-toolbar"><div class="filters" role="group" aria-label="작품 분야"><button class="filter is-active" data-filter="all" aria-pressed="true">All <sup>05</sup></button><button class="filter" data-filter="film" aria-pressed="false">Film & Planning <sup>02</sup></button><button class="filter" data-filter="design" aria-pressed="false">Design <sup>01</sup></button><button class="filter" data-filter="illustration" aria-pressed="false">Illustration <sup>02</sup></button></div><span class="swipe-hint">DRAG TO DISCOVER <span aria-hidden="true">⟷</span></span></div>
+      <div class="works-track" id="works-track" role="region" aria-roledescription="carousel" aria-label="포트폴리오 작품 슬라이드. 좌우 방향키로 이동할 수 있습니다." tabindex="0"></div>
+      <p class="sr-only" id="carousel-status" aria-live="polite"></p>
+      <div class="slider-controls"><div class="slider-progress" aria-hidden="true"><span></span></div><span class="slide-count"><span id="slide-current">01</span> <span class="count-divider">/</span> <span id="slide-total">05</span></span><div class="slider-arrows"><button id="prev-work" class="circle-button" aria-label="이전 작품" disabled>←</button><button id="next-work" class="circle-button" aria-label="다음 작품">→</button></div></div>
+      <noscript><p>작품 슬라이드를 보려면 JavaScript를 켜주세요. 아래 Archive에서 모든 원본 자료를 열 수 있습니다.</p></noscript>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="about-visual"><img src="assets/about-studio.webp" alt="따뜻한 햇살이 드는 나무 책상 위 카메라와 스케치북, 옅은 분홍색 꽃" width="1448" height="1086" loading="lazy"><div class="image-caption"><span>A NOTE ON MY PERSPECTIVE</span><span>01 — 2026</span></div></div>
+      <div class="about-copy"><p class="eyebrow">BEHIND THE FRAMES</p><h2 id="about-title">A little feeling.<br><em>A lasting story.</em></h2><div class="about-rule"></div><h3>안녕하세요, 배유지입니다.</h3><p>장면의 흐름과 리듬을 고민하며 영상편집을 배우고 있습니다. 짧은 순간에도 이야기가 느껴지도록, 무엇을 보여주고 어디에서 멈출지 생각합니다.</p><p>영상 기획, 브랜드 스토리, 비주얼 디자인을 오가며<br class="desktop-break"> 저만의 시선을 차곡차곡 쌓아가고 있습니다.</p><div class="about-signature"><span class="signature">Yuji</span><span>VIDEO EDITING<br>& VISUAL STORYTELLING</span></div><a class="underlined-link" href="#archive">작업의 시작과 과정 살펴보기 <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="process-section" aria-label="작업 방식"><p class="eyebrow">HOW I SEE, HOW I MAKE</p><div class="process-grid"><div><span class="process-number">01</span><h3>Find the story.</h3><p>타깃과 메시지를 살펴보고,<br>이야기가 시작되는 지점을 찾습니다.</p></div><div><span class="process-number">02</span><h3>Feel the rhythm.</h3><p>장면과 소리, 전환의 호흡을 연결해<br>자연스러운 흐름을 고민합니다.</p></div><div><span class="process-number">03</span><h3>Leave a feeling.</h3><p>색과 작은 디테일을 다듬어<br>기억에 남을 한 장면을 만듭니다.</p></div></div></section>
+
+    <section class="archive-section" id="archive" aria-labelledby="archive-title"><div class="section-heading"><div><p class="eyebrow section-kicker">IDEAS, DRAFTS & DETAILS</p><h2 id="archive-title">The working archive<span class="title-dot">.</span></h2></div><p class="archive-intro">완성된 모습 너머,<br>작업의 생각과 과정을 담았습니다.</p></div><div class="archive-list">
+      <a href="documents/millie-planning.pdf" target="_blank" rel="noopener"><span class="archive-number">01</span><span class="archive-name">밀리의서재 <small>광고 역기획 & 캠페인 제안</small></span><span class="archive-type">PDF · 26 PAGES</span><span class="archive-arrow" aria-hidden="true">↗</span></a>
+      <a href="documents/vitro-planning.pdf" target="_blank" rel="noopener"><span class="archive-number">02</span><span class="archive-name">VITRO <small>배드민턴화 홍보영상 제안</small></span><span class="archive-type">PDF · 29 PAGES</span><span class="archive-arrow" aria-hidden="true">↗</span></a>
+      <a href="documents/etude-planning.pdf" target="_blank" rel="noopener"><span class="archive-number">03</span><span class="archive-name">ETUDE <small>듀오 픽싱 틴트 상세페이지 기획</small></span><span class="archive-type">PDF · 24 PAGES</span><span class="archive-arrow" aria-hidden="true">↗</span></a>
+      <a href="documents/ryan-illustration.ai" download><span class="archive-number">04</span><span class="archive-name">Ryan <small>형태와 명암 · 캐릭터 재현 연습</small></span><span class="archive-type">ILLUSTRATOR · AI</span><span class="archive-arrow" aria-hidden="true">↓</span></a>
+      <a href="documents/pikachu-illustration.ai" download><span class="archive-number">05</span><span class="archive-name">Pikachu <small>선과 색면 · 캐릭터 재현 연습</small></span><span class="archive-type">ILLUSTRATOR · AI</span><span class="archive-arrow" aria-hidden="true">↓</span></a>
+    </div></section>
+  </main>
+
+  <footer><div class="footer-top"><p class="eyebrow">THANK YOU FOR STOPPING BY</p><h2>Until the <em>next frame.</em></h2><a class="pill" href="#work">Explore the work <span aria-hidden="true">↗</span></a></div><div class="footer-bottom"><a class="wordmark" href="#top" aria-label="YUJI, 처음으로">yuji<span>’26</span></a><span>© 2026 BAE YUJI · PORTFOLIO</span><a href="#top">Back to top ↑</a></div></footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="project-title"><div class="dialog-top"><span id="dialog-kicker">PROJECT NOTES</span><button class="dialog-close circle-button" aria-label="프로젝트 닫기">×</button></div><div id="project-content"></div></dialog>
+</body>
+</html>
